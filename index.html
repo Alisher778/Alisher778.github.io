@@ -1,1 +1,206 @@
-Hello world
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Web</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <script type="text/javascript" src="js.js"> 
+
+        </script>
+
+    </head>
+    <body onload="slideA()">
+        <div id="header-wrapper">
+        <header>
+        	
+            <div id="header-color">
+            <div id="top-header">
+                <a href="index.html" id="logo"><img src="image/logo.jpg"></a>
+        	   <div id="search">
+                 <input class="search" type="text" placeholder="search..."></input>
+                 <input id="location" type="text"></input>
+                    <button class="search">SEARCH</button>
+                </div>
+
+                <a href="#" id="user-nav"><img src="image/user-nav.png"></a>
+                <div id="user-menu">
+
+                    <a href="#" id="cart">CART</a>
+                    <div id="cart-wrapper">
+                        <div>
+                        <a href="cart-wrapper" title="close" class="close">X</a>
+                            
+                        </div>
+                    </div>
+                    <span>|</span>
+                    <a href="#">HELP</a>
+                    <span>|</span>
+                    <a href="#">SIGN IN</a>
+                    <span>|</span>
+                    <a href="#">SIGN UP</a>
+                </div>
+            </div>
+            </div>
+            <div id="nav-color">
+            <nav>
+                <a href="#" id="menu-icon"><img src="image/user-nav.png"></a>
+        		<ul>
+        			<li><a href="index.html">HOT ITEMS</a></li>
+                    <span>|</span>
+                    <li><a href="page2.html">ELECTRONICS</a>
+                    </li>
+                    <span>|</span>
+                    <li><a href="page3.html">CLOTHES</a></li>
+                    <span>|</span>
+                    <li><a href="page4.html">GETAWAY</a></li>
+        		</ul>
+        	</nav>
+            </div>
+        	
+
+        </header>
+        </div>
+        <div id="body-wrapper">
+            <img src="image/deals.jpg">
+        <section>
+            <div id="img-slider">
+                <img src="image/slide1.jpg" id="img">
+                
+                <div id="left-nav"><img onclick="slide(1)" src="image/arrow-left.png" width="64" height="64"></div>
+                <div id="right-nav"><img onclick="slide(1)" src="image/arrow-right.png" width="64" height="64"></div>
+                
+            </div>            
+        </section>
+        <section class="sec-wrapper">
+        	<div class="items">
+                <img src="image/hot-sale/sec1.1.jpg">
+                <h4>Casual Color Block Long Sleeves Hoodie For Women</h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$14.97</h3>   
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.2.jpg">
+                <h4>Stylish Hooded Zippered Long Sleeve Hoodie </h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$19.99</h3>   
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.3.jpg">
+                <h4>Casual Skew Neck Long Sleeve Letter Sweatshirt</h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$11.99</h3>  
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.4.jpg">
+                <h4>Casual Long Sleeve Letter Print Women's Sweatshirt</h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$14.99</h3> 
+            </div>
+            <!-- <div class="items">
+                <img src="#">
+                <p>Item description</p>
+                <h3>price</h3>   
+            </div> -->
+        </section>
+        <section class="sec-wrapper">
+            <div class="items">
+                <img src="image/hot-sale/sec1.5.jpg">
+                <h4>Apple MacBook 13.3" Laptop with Retina Display</h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$1,399.99</h3>       
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.6.jpg">
+                <h4>Stührling Original Men's Mechanical Watch </h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$99.99</h3>       
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.7.jpg">
+                <h4>Fitbit Surge Fitness Superwatch</h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$199.99</h3>       
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.8.jpg">
+                <h4>Aduro PowerUp 40-Watt 6-Port USB Charging Station</h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$19.99</h3>     
+            </div>
+            <!-- <div class="items">
+                <img src="#">
+                <p>Item description</p>
+                <h3>price</h3>   
+            </div> -->
+        </section>
+        <section class="sec-wrapper">
+            <div class="items">
+                <img src="image/hot-sale/sec1.9.jpg">
+                <h4>Women's Faux-Fur Button Boots with Memory Foam </h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$24.99</h3>       
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.10.jpg">
+                <h4>bObsweep Standard or Pet-Hair Robotic Vacuum </h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$219.99</h3>       
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.11.jpg">
+                <h4>Arrow 10'x12' White Dallas Steel Storage Shed </h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$529.99</h3>       
+            </div>
+            <div class="items">
+                <img src="image/hot-sale/sec1.12.jpg">
+                <h4>Waloo Milanese Loop Stainless Steel Apple Watch </h4>
+                <h3 class="crossed" style="color:rgb(76, 171, 22); font-size:1.5em">$39.99</h3>     
+            </div>
+            <!-- <div class="items">
+                <img src="#">
+                <p>Item description</p>
+                <h3>price</h3>   
+            </div> -->
+        </section>
+
+        </div>
+
+
+        <footer>
+        	<div id="sub-footer">
+            <section id="company">
+              <h3>Company</h3>
+              <a href="#">About Isell</a>  
+              <a href="#">Jobs</a>  
+              <a href="#">Blog</a>  
+              <a href="#">Press</a>  
+              <a href="#">Management Team</a>  
+            </section>
+            <section id="work">
+              <h3>Work with Isell</h3>
+              <a href="#">Join Isell</a>  
+              <a href="#">Run Isell Deal</a>  
+              <a href="#">Learn More Anout Isell</a>  
+              <a href="#">Merchant</a>  
+              <a href="#">Suggestions</a>  
+            </section>
+            <section id="more">
+              <h3>More</h3>
+              <a href="#">Customer Support</a>  
+              <a href="#">FAQ</a>  
+              <a href="#">Coupons</a>  
+              <a href="#">Gift Cards</a>  
+              <a href="#">Shop By Brand</a>  
+            </section>
+            <section id="us">
+              <h3>Follow Us</h3>
+              <a href="#"><img src="image/fb.png"></a>  
+              <a href="#"><img src="image/twitter.png"></a>               
+            </section>
+            <section id="mobile-app">
+                <a href="#" ><img src="image/mobile.png"><p>Get The <b style="color:black">Isell</b><br>Mobile App</p></a>
+            </section>
+            </div>
+            </footer>
+            <div id="low-footer">
+            <div id="low-footer-wrapper">
+            <p>All Rights Reserved by Alisher Musurmonov 2015</p>
+            </div>
+            </div>
+        
+    </body>
+</html>
