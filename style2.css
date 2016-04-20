@@ -55,9 +55,14 @@ a{
 	margin: -13px auto;
 	padding-top: 37px;
 }
-#logo{
+#logo-size{
+	width: 80px;
+	height: 80px;
+	border-radius: 22px;
+	position: relative;
+	bottom: 19px;
 	float: left;
-	width: 14%;		
+	
 }
 #search{
 	float: left;
