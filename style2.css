@@ -6,7 +6,7 @@ body{
 a{
 	text-decoration: none;
 }
-#modal{
+.modal{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -19,11 +19,11 @@ a{
 	pointer-events: none;
 
 }
-#modal:target{
+.modal:target{
 	opacity: 1;
 	pointer-events:auto;
 }
-#modal  div{
+.modal  div{
 	width: 560px;
 	position: relative;
 	margin: 1% auto;
